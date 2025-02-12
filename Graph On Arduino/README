@@ -1,0 +1,18 @@
+Modules:
+  IR Sensor
+  Arduino Nano (or Uno)
+  128x64 Oled Screen
+
+Connection:
+  IR Sensor + -> Arduino +5V
+  IR Sensor - -> Arduino GND
+  IR Sensor S -> Arduino pin 2
+
+  Oled Screen VCC -> Arduino +5V
+  Oled Screen GND -> Arduino GND
+  Oled Screen SDA -> Arduino A4
+  Oled Screen SCL -> Arduino A5
+
+Library:
+  IRemote
+  OLED_I2C
